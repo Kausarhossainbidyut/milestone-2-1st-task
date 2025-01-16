@@ -1,0 +1,135 @@
+
+.task-1-content{
+    display: flex;
+    gap: 30px;
+   
+}
+.left-1{
+    background-color: aliceblue;
+    width: 500px;
+    height: 1000px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-weight: bolder;
+}
+.right-1{
+    background-color: antiquewhite;
+    width: 100%;
+    height: 1000px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+@media screen and (max-width:576px) {
+    .task-1-content{
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+    }
+    .left-1{
+        height: 500px;
+        width: 100%;
+    }
+    .right-1{
+        height: 500px;
+        width: 100%;
+    }
+}
+
+/* Task-2  */
+/* 
+.task-2-content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    height: 300px;
+    margin-top: 30px;
+    gap: 20px;
+    
+    
+}
+.box-1{
+    background-color: red;
+    display: grid;
+    /* height: 100%; */
+/* }
+.box-2{
+    background-color: tan;
+}
+.box-3{
+    background-color: slateblue;
+}
+.box-4{
+    background-color: darkgray;
+}
+ */ */
+
+ /* task-3  */
+
+ .image-contenar, img{
+    width: 100%;
+ }
+
+ @media screen and (max-width:576px) {
+    .image-contenar, img{
+        width: 100%;
+     }
+ }
+
+ @media screen and(min-width:577px)and(max-width:992px) {
+    .image-contenar, img{
+        width: 100%;
+     }
+ }
+
+ /* Task-4  */
+
+ .food-content{
+    display: flex;
+   gap: 20px;
+   /* border: 2px solid tomato; */
+   margin: 10px;
+   background-color: antiquewhite;
+   border-radius: 20px;
+ }
+
+ .image-food,img{
+    width: 500px;
+    height: 500px;
+   
+ }
+ /* .food-description{
+    width: 50%;
+ } */
+
+ .btn,button{
+    width: 100px;
+    height: 37px;
+    background-color: aquamarine;
+    
+    font-weight: 700;
+ }
+
+ @media screen and (max-width:576px) {
+    .food-content{
+        display: flex;
+       gap: 20px;
+       flex-direction: column;
+       /* border: 2px solid tomato; */
+     }
+     .image-food,img{
+        width: 100%;
+        
+     }
+     .food-description{
+        width: 90%;
+        padding: 20px;
+     }
+    
+ }
